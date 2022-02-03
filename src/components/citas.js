@@ -10,7 +10,7 @@ function Citas() {
   , [])
   return (
     <div>
-      {quote?.content}
+      {quote?.content} - {quote?.character?.firstname} {quote?.character?.lastname}
     </div>
   )
 }

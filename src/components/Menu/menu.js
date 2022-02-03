@@ -6,19 +6,19 @@ function Menu() {
       <ul className="menu">
         <MenuItem
           text='Home'
-          link="home"
+          link="/"
         />
         <MenuItem
           text='Personajes'
-          link="personajes"
+          link="/personajes"
         />
         <MenuItem
           text='Citas'
-          link="citas"
+          link="/citas"
         />
         <MenuItem
           text='Episodios'
-          link="episodios"
+          link="/episodios"
         />
       </ul>
     </nav>
