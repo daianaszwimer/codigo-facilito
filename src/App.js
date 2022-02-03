@@ -10,7 +10,7 @@ function App() {
   const currentURL = window.location.pathname
   function renderContent() {
     switch(currentURL) {
-      case "/":
+      case "/home":
         return <Home/>
       case "/personajes":
         return <Personajes/>
