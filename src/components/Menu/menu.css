@@ -1,0 +1,10 @@
+.menu-wrapper {
+  border-bottom: 1px solid var(--menu-border-color);
+}
+
+.menu {
+  margin: 0;
+  list-style: none;
+  display: flex;
+  padding: 0;
+}
